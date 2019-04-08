@@ -18,5 +18,5 @@
 8. git push -u origin master
   - 깃에 올린다.
   - 만약, Repository not found. 문구가 뜨면 9번 실행
-9. $ git remote set-url origin "https://깃아이디@github.com/깃아이디/레포지토리.git"
+9. $ git remote add origin "https://깃아이디@github.com/깃아이디/레포지토리.git"
   - 작성 후 8번을 실행 시킨다.

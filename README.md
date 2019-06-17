@@ -20,3 +20,23 @@
   - 만약, Repository not found. 문구가 뜨면 9번 실행
 9. $ git remote add origin "https://깃아이디@github.com/깃아이디/레포지토리.git"
   - 작성 후 8번을 실행 시킨다.
+  
+# git에서 클론시 사용법 
+1. $ git clone https://github.com/깃아이디/레포지토리.git
+  - git 클론하기
+2. $ git remote set-url origin "https://깃아이디@github.com/깃아이디/레포지토리.git" 
+  - set-url 바꾸기
+3. $ git config --list
+  - 이곳에서 이메일과 이름이 입력되어 있는지 확인한다.
+    - user.email=깃 이메일주소
+    - user.name=깃 아이디
+  - 나가고 싶을 때는 ':' + 'q'를 입력하면 나가진다.
+4. $ git config user.email 깃 이메일주소
+  - 위에서 확인시 이메일이 입력되어 있지 않으면, 깃 이메일주소 입력한다.
+5. $ git config user.name 깃 아이디
+  - 위에서 확인시 이름이 입력되어 있지 않으면, 깃 아이디를 입력한다.
+6. $ git add .
+7. $ git commit -m "작성"
+  - 연결을 안했다면 아래 것을 한다.
+9. git push origin master
+  - 깃에 올린다.
